@@ -1,0 +1,28 @@
+:root{
+    /*
+    color variables
+    */
+    --color-primary-dark: hsl(243, 87%, 12%);
+    --color-primary-desaturated: hsl(238, 45%, 43%);
+    --color-accent-blue: hsl(224, 93%, 58%);
+    --color-accent-cyan: hsl(170, 45%, 43%);
+    --color-neutral-blue: hsl(240, 75%, 98%);
+    --color-neutral-gray: hsl(0, 0%, 75%);
+
+    /*font-family variables*/
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-font: 'Open Sans', sans-serif;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
